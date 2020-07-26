@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/React-Redux-Practice/static/js/main.d8544244.chunk.js",
+    "main.js.map": "/React-Redux-Practice/static/js/main.d8544244.chunk.js.map",
+    "runtime-main.js": "/React-Redux-Practice/static/js/runtime-main.02020600.js",
+    "runtime-main.js.map": "/React-Redux-Practice/static/js/runtime-main.02020600.js.map",
+    "static/js/2.34543ed0.chunk.js": "/React-Redux-Practice/static/js/2.34543ed0.chunk.js",
+    "static/js/2.34543ed0.chunk.js.map": "/React-Redux-Practice/static/js/2.34543ed0.chunk.js.map",
+    "index.html": "/React-Redux-Practice/index.html",
+    "precache-manifest.ab3898d31cd8662048095fcbcc78860b.js": "/React-Redux-Practice/precache-manifest.ab3898d31cd8662048095fcbcc78860b.js",
+    "service-worker.js": "/React-Redux-Practice/service-worker.js",
+    "static/js/2.34543ed0.chunk.js.LICENSE.txt": "/React-Redux-Practice/static/js/2.34543ed0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.02020600.js",
+    "static/js/2.34543ed0.chunk.js",
+    "static/js/main.d8544244.chunk.js"
+  ]
+}
