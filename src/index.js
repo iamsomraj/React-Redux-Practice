@@ -1,17 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+
 import App from './App';
-import * as serviceWorker from './serviceWorker';
+
+// step 1 : import redux for the create store method
+import { createStore } from 'redux';
+
+// step 3 : import Provider from the react redux
+import { Provider } from 'react-redux';
+
+// step 2 : import Reducer for the state and action
+import Reducer from './Reducers/Reducer';
+
+const store = createStore(Reducer);
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Provider store={store}>
     <App />
-  </React.StrictMode>,
+  </Provider>,
   document.getElementById('root')
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
